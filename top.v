@@ -21,7 +21,7 @@ module top(
   //LSB stage
   full_adder fa0 (
     .A (sw[4]),
-    .B (Sw[6]), 
+    .B (sw[6]), 
     .Cin (1'b0),
     .Y (led[3]),
     .Cout (c1)
