@@ -13,12 +13,14 @@ In this lab you've learned the basics of number theory as it relates to addition
 
 ## Lab Questions
 Lab Summary
+-
 In this lab, we learned how binary addition works and how logic gates are used to build addrs. 
 First, we implemented the stairway light example using an XOR gate, which helped understand how XOR works in real life. 
 THen we built a one bit adder using XOR for sum and AND for the carry.
 After that, we created a full adder, which includeds a carry in and carry out. 
 Finallym we connected two full adders together to make a two bit adder. This showed how bigger adders are built by connecting smaller ones together.
 Overall, this lab helped understand how basic logic gates can be combined to perform actual math. 
+
 
 ### 1 - How might you add more than two bits together?
 To add more than two bits together, you would just keep chaining full adders together. Each bit needs its own full adder. 
